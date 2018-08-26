@@ -1,0 +1,19 @@
+{
+    "name": "tvolly/yii2-backend",
+    "description": "Yii2 Backend",
+    "authors": [
+        {
+            "name": "Tursun Garipov",
+            "email": "garipovtursun@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "tvolly/yii2-core": "master"
+    },
+    "autoload": {
+        "psr-4": {
+            "tvolly\\backend\\": "src/"
+        }
+    }
+}
